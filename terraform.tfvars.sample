@@ -27,5 +27,3 @@ storage_account_prefix = "asrdemo"
 
 # Set to non-zero if we should create some public IP addresses for attaching to VMs during test failover
 failover_public_ip_count = 0
-
-#test
