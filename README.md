@@ -30,7 +30,7 @@ This lab is designed to be run stand-alone without connectivity to a corporate n
 
 ```
 git clone https://github.com/reduards/ASR-LAB.git
-cd sap/terraform/standalone/asrdemo/
+cd ASR-LAB
 mv terraform.tfvars.sample terraform.tfvars
 code terraform.tfvars
 ```
@@ -47,14 +47,14 @@ terraform apply
 6. Start Windows PowerShell and paste the following command:
 
 ```
-Invoke-WebRequest https://raw.githubusercontent.com/dohughes-msft/sap/master/terraform/standalone/asrdemo/Configure-HyperVHost-Part1.ps1 | Invoke-Expression
+Invoke-WebRequest https://raw.githubusercontent.com/reduards/ASR-LAB/master/Configure-HyperVHost-Part1.ps1 | Invoke-Expression
 ```
 
 7. The VM will perform some configuration and reboot.
 8. After the restart, start PowerShell again and run the final configuration script:
 
 ```
-Invoke-WebRequest https://raw.githubusercontent.com/dohughes-msft/sap/master/terraform/standalone/asrdemo/Configure-HyperVHost-Part2.ps1 | Invoke-Expression
+Invoke-WebRequest https://raw.githubusercontent.com/reduards/ASR-LAB/master/Configure-HyperVHost-Part2.ps1 | Invoke-Expression
 ```
 
 This script imports the pre-installed Hyper-V guests from a storage account and will take some time.
