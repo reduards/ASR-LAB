@@ -29,7 +29,7 @@ This lab is designed to be run stand-alone without connectivity to a corporate n
 2. Clone the lab repo:
 
 ```
-git clone https://github.com/dohughes-msft/sap.git
+git clone https://github.com/reduards/ASR-LAB.git
 cd sap/terraform/standalone/asrdemo/
 mv terraform.tfvars.sample terraform.tfvars
 code terraform.tfvars
